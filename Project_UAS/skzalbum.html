@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKZ_Galeri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hamburger" id="hamburger" onclick="toggleDrawer()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    
+    <!-- Drawer (Sidebar) -->
+    <div class="drawer" id="drawer">
+        <div class="drawer-content">
+            <a href="index.html">Beranda</a>
+            <a href="Beranda.html">Tentang Perusahaan</a>
+            <a href="tentang.html">Sejarah</a>
+            <!-- <a href="#"></a>
+                <select class="service-dropdown">
+                    <a href="tentang.html"></aa>
+                    <option value="service2">Service 2</option>
+                    <option value="service3">Service 3</option>
+                    <option value="service4">Service 4</option>
+                </select>
+            </a> -->
+            <button type="button" onclick="document.getElementById('demo').style.display='block'" class="buttontext">Artist</button>
+            <ul id="demo" style="display:none" class="ulli" >
+                <li cl><a href="bts.html" >BTS</a></li>
+                <li><a href="day6.html">Day6</a></li>
+                <li><a href="skz.html">StrayKids</a></li>
+            </ul>
+            <a href="kotak.html">Kontak</a>
+        </div>
+    </div>
+    <script>
+        function toggleDrawer() {
+    const drawer = document.getElementById('drawer');
+    drawer.classList.toggle('open'); // Menambahkan atau menghapus kelas 'open' pada drawer
+    }
+    </script>
+
+    <header class="header">
+        <div>
+            <img src="img/logo.jpg" alt="">
+            <h1>STRAYKIDS</h1>
+        </div>
+        <nav style="background-color: #2a3132;">
+            <ul>
+                <li><a href="skz.html">Home</a></li>
+                <li><a href="skzprofil.html">Profil</a></li>
+                <li><a href="skzgaleri.html">Diskografi</a></li>
+                <li><a href="skzalbum.html">Galeri</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  
+        <div class="carousel">
+            <div class="carousel-inner">
+                <img src="https://i.pinimg.com/736x/b8/91/e3/b891e3af97faf362aaae0659c60ea5cb.jpg" alt="Gambar 1" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/6e/19/ee/6e19ee7f2e17ae7a0258e0e70a5ec929.jpg" alt="Gambar 2" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/97/08/cb/9708cb8585b23a53d37b94fc52d569de.jpg" alt="Gambar 3" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/bd/95/20/bd9520a673d4cffea192d88749ec35ee.jpg" alt="Gambar 4" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/55/66/09/5566099e4dd595faa2d8f1da6c615452.jpg" alt="Gambar 4" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/9e/0d/3d/9e0d3d8c3078319eee2aa3a42f7d4720.jpg" alt="Gambar 4" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/b1/81/f4/b181f41fb3c17f7ec4ca075435b61688.jpg" alt="Gambar 4" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/f1/8d/ff/f18dff19eea0be36e00a7c06873acb7e.jpg" alt="Gambar 4" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/03/b3/eb/03b3eb15c01f7178af3976be1fef3248.jpg" alt="Gambar 4" class="carousel-item">
+                <img src="https://i.pinimg.com/474x/de/56/f7/de56f7287045b50d4b40179a828a75e4.jpg" alt="Gambar 4" class="carousel-item">
+            </div>
+        </div>
+
+        <section style="padding-top: 6em; padding-left: 1em; padding-right: 1em; gap: 0.2em; padding-bottom: 0; margin-bottom: 0;height: 16.2em;">
+            <div class="galerialbum" style="padding-bottom: 0;">
+                <img src="https://i.pinimg.com/474x/ba/88/8e/ba888ec2e9d2fef5078161a905684e77.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum"  >
+                <img src="https://i.pinimg.com/474x/88/df/fa/88dffa7f3a997f0fa7c608958af0991d.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/474x/39/14/5f/39145f1eb4a2bd72f287483eb51b02ac.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/736x/30/91/5d/30915da3a686cbacde33b8828bbd57e4.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" mar>
+                <img src="https://i.pinimg.com/474x/c3/e0/40/c3e040239928e2d05434d1a6804121fa.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 16.2em; height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0;" >
+                <img src="https://i.pinimg.com/474x/c2/4a/bb/c24abb17cf9b2a5f7042390686081d69.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum"  >
+                <img src="https://i.pinimg.com/736x/99/cf/3f/99cf3f9b40337c0dd1f1d86e1b17f4e8.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/474x/3a/aa/cd/3aaacd7ad8d886f11bde00ac942b677b.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/474x/b0/39/f4/b039f48f9435785fabc3bb445d787806.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/736x/4d/65/28/4d65283c5e18e35267a7f672724e0734.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0;" >
+                <img src="https://i.pinimg.com/474x/4a/b7/25/4ab725d91dee9f8fedc23e7eed656435.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum"  >
+                <img src="https://i.pinimg.com/474x/21/3b/f1/213bf16c106d835d14e8e6c9df58476e.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/474x/3b/00/87/3b008782bd17a47d8e3308e8538360ed.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/474x/48/d9/ea/48d9eaff53b5560bf5d526803664cd4b.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" mar>
+                <img src="https://i.pinimg.com/474x/08/ac/89/08ac89ce5ab8d7d236dcea676f2b33d1.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0;" >
+                <img src="https://i.pinimg.com/474x/89/d0/07/89d007eaa473444026ed4b5219be573e.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum"  >
+                <img src="https://i.pinimg.com/736x/19/9c/c8/199cc83517853174627ba1318df17999.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/736x/92/7f/68/927f680b7f30db2e1a0b827588bdf98f.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/736x/8b/5d/07/8b5d07fe5ab067feca6e65be56a855c6.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" mar>
+                <img src="https://i.pinimg.com/474x/05/7d/ac/057dac4a254400e368a53a6d89c6ac7a.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0;" >
+                <img src="https://i.pinimg.com/736x/30/28/4a/30284a40d0a6d572b5ee8641cc4ff393.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum"  >
+                <img src="https://i.pinimg.com/474x/19/09/08/1909085495d0ca3a7df913d61bb8bbb8.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/474x/38/dc/bb/38dcbb2c26d072d7bfe4ee868b8e37ff.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" >
+                <img src="https://i.pinimg.com/474x/e5/86/e6/e586e64c6a9988248b02534fdfcfa6a6.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" mar>
+                <img src="https://i.pinimg.com/474x/91/24/28/912428225b47af4513f076b8eb177f39.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0; height: 10em;" >
+                <img src="https://i.pinimg.com/474x/ea/ee/09/eaee0919a131651a63815e4d17fd72dc.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;" >
+                <img src="https://i.pinimg.com/474x/b4/d9/9a/b4d99aaaec7ac969908588f09ad7facf.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/474x/06/48/6d/06486d1cc0ab42ebc63219947525b3c3.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/f4/3a/e0/f43ae002114c4ed9516c91dd8aa80915.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/af/d7/96/afd796bce2a3adf47be95cc7aacbc78f.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0; height: 10em;" >
+                <img src="https://i.pinimg.com/736x/f0/e2/db/f0e2dbd1300121d8adfd737eef79daf9.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;" >
+                <img src="https://i.pinimg.com/736x/fa/dd/27/fadd27c3237a5d54ca4e02e40079fe6e.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/f2/16/b5/f216b5eef59e88151e59b97323305f1b.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/3c/80/a4/3c80a4f75b181f75e7b9d91a1dbb8d38.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/57/45/42/574542a2bb7b328e3092f098770b1bfd.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0; height: 10em;" >
+                <img src="https://i.pinimg.com/736x/5b/77/94/5b77941717e6ca2bf85d8924e7ff41c4.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;" >
+                <img src="https://i.pinimg.com/736x/13/35/fc/1335fc4651bb193b9a74e0ee56db2195.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/e9/97/21/e99721b4bbb8c0b443d4807846e92df5.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/474x/ed/0c/79/ed0c79b99d7bb5227ef0470caa5144d8.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/474x/dc/08/cd/dc08cd398898da0073dd2120eb139789.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+
+        <section style="padding-top: 0;margin-top: 0cm; padding-left: 1em; padding-right: 1em; gap: 0.2em;height: 10.2em;">
+            <div class="galerialbum" style="padding-bottom: 0; height: 10em;" >
+                <img src="https://i.pinimg.com/474x/18/aa/fc/18aafcdb4d4f81c5666700900123a20b.jpg" alt="" style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;" >
+                <img src="https://i.pinimg.com/474x/bd/a9/df/bda9df1b4c7287fcf0cca140d32eab16.jpg" alt=""style="width: 15em;height:10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/474x/8c/91/51/8c91517e2310c0ba462b564656be18e0.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/1b/cf/e9/1bcfe9e2243c2d803cff526be24827a7.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+            <div class="galerialbum" style=" height: 10em;">
+                <img src="https://i.pinimg.com/736x/7a/7f/e8/7a7fe8fe3734ff97be74020f7097fdb9.jpg" alt=""style="width: 15em;height: 10em;">
+            </div>
+        </section>
+        
+        <footer class="footer p" style="background: rgba(39, 45, 45, 0.5);">
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/realstraykids?igsh=cXN2cG9leGxnMWdn" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=85154&format=png&color=FFFFFF" alt="" >
+                </a>
+                <a href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=15979&format=png&color=FFFFFF" alt="">
+                </a>
+                <a href="https://www.bing.com/ck/a?!&&p=3140e0176f44a1551ad8c0f28cf18ceb342ddf6b48fe6d13c6d798312f162455JmltdHM9MTczNTk0ODgwMA&ptn=3&ver=2&hsh=4&fclid=118f8398-d66b-6755-1d20-9682d73d66af&psq=link+twitter+straykids&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9zdHJheWtpZHNpbmRv&ntb=1" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="">
+                </a>
+                <a href="https://www.bing.com/ck/a?!&&p=64ebf706aedf8f975d074859b62830a2bfa5b8a4e3fc4ab8a1e5addd8e63c03bJmltdHM9MTczNTk0ODgwMA&ptn=3&ver=2&hsh=4&fclid=118f8398-d66b-6755-1d20-9682d73d66af&psq=link+facebook+straykids&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0pZUEVTdHJheUtpZHMv&ntb=1" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=87264&format=png&color=FFFFFF" alt="">
+            </div>
+            <p>copyright © X&H ENTERTAINMENT Co., Ltd. All rights reserved</p>
+        </footer>
+    </body>
+</html>

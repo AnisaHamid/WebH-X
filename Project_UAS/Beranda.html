@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X&H ENTERTAINMENT_Beranda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyindex">
+    <div class="hamburger" id="hamburger" onclick="toggleDrawer()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Drawer (Sidebar) -->
+    <div class="drawer" id="drawer">
+        <div class="drawer-content">
+            <a href="index.html">Beranda</a>
+            <a href="Beranda.html">Tentang Perusahaan</a>
+            <a href="tentang.html">Sejarah Perusahaan</a>
+            <!-- <a href="#"></a>
+                <select class="service-dropdown">
+                    <a href="tentang.html"></aa>
+                    <option value="service2">Service 2</option>
+                    <option value="service3">Service 3</option>
+                    <option value="service4">Service 4</option>
+                </select>
+            </a> -->
+            <button type="button" onclick="document.getElementById('demo').style.display='block'" class="buttontext">Artist</button>
+            <ul id="demo" style="display:none" class="ulli" >
+                <li cl><a href="tentang.html" >BTS</a></li>
+                <li><a href="#">Day6</a></li>
+                <li><a href="#">StrayKids</a></li>
+            </ul>
+            <a href="kotak.html">Kontak Perusahaan</a>
+        </div>
+    </div>
+    <script>
+        function toggleDrawer() {
+    const drawer = document.getElementById('drawer');
+    drawer.classList.toggle('open'); // Menambahkan atau menghapus kelas 'open' pada drawer
+    }
+    </script>
+
+    <header>
+        <h1 style="padding-top: 3px;z-index: 1000; top: 0;font-size: 30px;">X&H Entertaiment</h1>
+    </header>
+    <div class="bg-overlay " style="background-color: rgba(0, 0, 0, 0.7); ">
+
+        <h1 style=" margin-top: 1.5em; text-align: center;">Tentang Perusahaan</h1>
+        <hr style="width: 90%;
+        margin-left: auto;
+        margin-right: auto; ">
+        <section style="padding-left: 8em; padding-top: 0;">
+            <div class="container">
+                <img src="img/logo.jpg" alt="Logo">
+                <p style="line-height: 1.6em;">X&H Entertainment adalah rumah kreatif bagi talenta berbakat di industri musik, khususnya boy band. Sebagai platform yang mendukung pengembangan artis, kami berkomitmen untuk menciptakan karya yang menginspirasi, menghibur, dan relevan dengan audiens global. Berfokus pada manajemen profesional, produksi musik berkualitas, dan strategi promosi inovatif, X&H Entertainment berperan dalam membentuk tren baru dalam dunia hiburan. Kami tidak hanya membantu artis bersinar, tetapi juga membangun hubungan yang kuat dengan penggemar melalui karya-karya yang autentik.</p>
+            </div>
+        </section>
+  
+        <section style="padding-left: 8em;">
+            <p> Misi Kami  : Mengangkat talenta lokal ke panggung internasional dengan menciptakan hiburan yang penuh makna. </p>
+            <p> Visi Kami : Menjadi pemimpin dalam industri hiburan global dengan memperkenalkan boy band ikonik yang menjadi inspirasi generasi muda.  </p>
+        </section>
+    </div>
+    
+    <footer class="footer p" style="background: rgba(39, 45, 45, 0.5);">
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/hybe.labels_official?igsh=NXN1Mzg2a2ttenh3" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=85154&format=png&color=FFFFFF" alt="" >
+            </a>
+            <a href="https://youtube.com/@hybelabels?si=m6CnJ-JCbQIvakDo" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=15979&format=png&color=FFFFFF" alt="">
+            </a>
+            <a href="https://www.bing.com/ck/a?!&&p=c89a502dc3f22e1514d2c17d623824742b2c6cf9263b25a727cd0af9b5111905JmltdHM9MTczNTk0ODgwMA&ptn=3&ver=2&hsh=4&fclid=118f8398-d66b-6755-1d20-9682d73d66af&psq=link+twitter+hybe+labels&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9IWUJFTEFCRUxTdHd0&ntb=1" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=FFFFFF" alt="">
+            </a>
+            <a href="https://www.bing.com/ck/a?!&&p=bd9bda900e977d5fa5062ec9c5f0e06228c6b56578abbe28cd60e390933f189bJmltdHM9MTczNTk0ODgwMA&ptn=3&ver=2&hsh=4&fclid=118f8398-d66b-6755-1d20-9682d73d66af&psq=link+facebook+hybe&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0hZQkVPRkZJQ0lBTGZiLw&ntb=1" target="_blank">
+                <img src="https://img.icons8.com/?size=100&id=87264&format=png&color=FFFFFF" alt="">
+            </a>
+        </div>
+        <p>copyright © X&H ENTERTAINMENT Co., Ltd. All rights reserved</p>
+    </footer>
+</body>
+</html>
